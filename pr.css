@@ -3,6 +3,12 @@
     margin:0;
 }
 
+.container-1{
+background-image:url(poto/tumpukanlogo.jpg);
+background-size:100% 50%;
+background-repeat:no-repeat;
+}
+
 header{
 position:sticky;
 top:0;
@@ -12,7 +18,11 @@ nav{
 display:flex;
 justify-content:space-between;
 align-items:center;
-background-color:black;
+background-color:transparent;
+}
+
+.nav-logo{
+/* background-color:white; */
 }
 
 .nav-ul{
@@ -29,14 +39,11 @@ padding:5px
 
 .nav-a{
 color:white;
-text-decoration:none;
+/* text-decoration:none; */
 }
 
 main{
     color:white;
-    background-image:url(poto/tumpukanlogo.jpg);
-    background-repeat:no-repeat;
-    background-size:cover;
     height:500px;
     display:flex;
     justify-content:space-evenly;
@@ -49,9 +56,9 @@ main{
     background-color:white;
     display:flex;
     align-items:center;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     height:30px;
-    width:500px;
+    width:100%;
     border-radius:10px;
 }
 
@@ -66,6 +73,7 @@ main{
     height:35px;
     width:60px;
     border-radius: 0px 10px 10px 0px;
+    background-color:blue;
 }
 
 #about{
