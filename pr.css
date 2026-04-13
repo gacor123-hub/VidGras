@@ -2,101 +2,76 @@
     padding:0;
     margin:0;
 }
-
-.container-1{
-background-image:url(poto/tumpukanlogo.jpg);
-background-size:100% 50%;
-background-repeat:no-repeat;
-}
-
-header{
-position:sticky;
-top:0;
-}
-
-nav{
+.menu{
 display:flex;
 justify-content:space-between;
 align-items:center;
 background-color:transparent;
+width:100%;
+height:50px;
+flex-direction:row-reverse;
 }
 
-.nav-logo{
-/* background-color:white; */
-}
-
-.nav-ul{
-display:flex;
-align-items:center;
-margin-right:9px;
-font-weight:800;
-}
-
-.nav-li{
-list-style-type:none;
-padding:5px
-}
-
-.nav-a{
-color:white;
-/* text-decoration:none; */
-}
-
-main{
-    color:white;
-    height:500px;
+.background{
+    background-image:url(poto/tumpukanlogo.jpg);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items:center;
     flex-direction:column;
-    
-}
-
-.main-form{
-    background-color:white;
-    display:flex;
-    align-items:center;
-    /* justify-content:space-between; */
-    height:30px;
+    color:white;
     width:100%;
-    border-radius:10px;
+    height:600px;
+    padding:0;
 }
 
-.input-1{
-    height:30px;
-    width:450px; 
-    border-radius:10px 0px 0px 10px;
-    padding-left:2px;
-}
-
-.input-2{
-    height:35px;
-    width:60px;
-    border-radius: 0px 10px 10px 0px;
-    background-color:blue;
-}
-
-#about{
-    height:400px;
-    background-color:tomato;
-    padding-left:8px
-}
-
-.cara-download{
-    margin-left:6px;
-}
-
-.ul-down{
-padding:5px;
-}
-
-.li-down{
+ul li{
+    display:flex;
     list-style-type:none;
-    margin:5px;
-    text-decoration:underline;
+    color:white;
+    font-size:23;
+    font-weight:600;
+    padding-right:5px;
+    background-color:brown;
+    padding:5px;
+    font-weight:800;
+}
+
+a{
+    text-decoration:none;
+}
+
+.ul-logo{
+    display:flex;
+    gap:10px;
+    padding-right:8px;
+}
+
+.form{
+    display:flex;
+    justify-content:end;
+    margin-top:30%;
+}
+
+.p-about{
+   padding-left:8px;
+   margin-bottom:34px;
+   border:3px solid;
+}
+
+.cara{
+border:3px solid;
+
+}
+
+.p-cara{
+    padding:4px;
 }
 
 footer{
-    background-color:#141313;
-    color:rgb(228, 217, 217);
+    background-color:black;
+    color:white;
+    padding-left:6px;
+    margin-top:10px;
 }

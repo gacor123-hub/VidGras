@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="75.888741mm"
-   height="24.883688mm"
-   viewBox="0 0 75.888741 24.883688"
+   width="10.053757mm"
+   height="3.7548192mm"
+   viewBox="0 0 10.053757 3.7548192"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.4261574"
-     inkscape:cx="4.9082941"
-     inkscape:cy="-9.1154034"
+     inkscape:zoom="16.135129"
+     inkscape:cx="14.998331"
+     inkscape:cy="2.9748755"
      inkscape:window-width="1328"
      inkscape:window-height="736"
      inkscape:window-x="0"
@@ -39,19 +39,19 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-43.17915,-112.755)">
+     transform="translate(-45.146726,-114.51903)">
     <rect
-       style="fill:#f9f9f9;stroke:#fffcff;stroke-width:0.805;paint-order:stroke fill markers;stop-color:#000000"
+       style="fill:#0000ff;stroke:#fffcff;stroke-width:0.187443;paint-order:stroke fill markers;stop-color:#000000"
        id="rect1566"
-       width="33.965973"
-       height="9.0733128"
-       x="43.58165"
-       y="121.16116"
+       width="5.6077881"
+       height="2.4478085"
+       x="45.240448"
+       y="115.2794"
        rx="0"
-       ry="0" />
+       ry="0.46133047" />
     <path
-       style="fill:#f9f9f9;stroke:#fffcff;stroke-width:0.805;paint-order:stroke fill markers;stop-color:#000000"
-       d="m 77.512716,120.53861 0.179148,-7.25056 40.106056,11.71269 c -11.57818,4.36295 -10.54056,3.75596 -40.453831,12.10236 0.152028,-4.25758 0.11862,-6.99683 0.11862,-6.99683"
+       style="fill:#0000ff;stroke:#fffcff;stroke-width:0.115245;paint-order:stroke fill markers;stop-color:#000000"
+       d="m 50.341484,114.56849 0.01338,0.008 4.692888,1.99554 c -1.631219,0.63562 -0.683037,0.3042 -4.739488,1.64712 l 0.0042,0.0149"
        id="path1731"
        sodipodi:nodetypes="ccccc" />
   </g>
