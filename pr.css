@@ -48,25 +48,36 @@ a{
     padding-right:8px;
 }
 
+.url{
+width:50%;
+padding:10px;
+}
+
 .form{
     display:flex;
     justify-content:end;
-    margin-top:30%;
+    margin-top:50px;
+    padding:2px;
+}
+
+.about{
+    margin-bottom:34px;
+    border:3px solid;
 }
 
 .p-about{
-   padding-left:8px;
-   margin-bottom:34px;
-   border:3px solid;
+  padding-left:10px;
 }
 
 .cara{
 border:3px solid;
+padding:5px;
 
 }
 
 .p-cara{
-    padding:4px;
+    padding-left:10px;
+    margin:1px;
 }
 
 footer{
