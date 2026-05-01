@@ -71,13 +71,14 @@ padding:10px;
 
 .cara{
 border:3px solid;
-padding:5px;
+padding:10px;
 
 }
 
 .p-cara{
-    padding-left:10px;
+    padding:10px;
     margin:1px;
+    float:left;
 }
 
 footer{
