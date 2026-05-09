@@ -2,6 +2,7 @@
 *{
     padding:0;
     margin:0;
+    box-sizing:border-box;
     scroll-behavior:smooth;
     font-family:'Inter',sans-serif;
 }
@@ -57,7 +58,7 @@ a{
 .ul-logo{
     display:flex;
     gap:10px;
-    padding-right:8px;
+    padding-right:8px
 }
 
 .url{
