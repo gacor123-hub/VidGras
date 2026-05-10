@@ -26,6 +26,12 @@ bottom:0; */
     /* z-index:100; */
 }
 
+@media(max-width: 660px) {
+    .ul-logo li {
+        display: none;
+    }
+}
+
 .background {
     background-image: url(poto/tumpukanlogo.jpg);
     background-size: 100% 100%;
