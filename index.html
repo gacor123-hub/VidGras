@@ -15,7 +15,12 @@
 <body>
     <!-- header -->
     <div class="menu">
-        <ul class="ul-logo">
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="ul-logo" id="navMenu">
             <a href="#about">
                 <li>ABOUT</li>
             </a>
@@ -27,11 +32,6 @@
             </a>
         </ul>
         <img src="poto/logo.svg" alt="logo" width="120px" style="cursor:pointer;" />
-    </div>
-    <div class="burger">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
     </div>
     <!-- header -->
     <div id="home" class="background">
@@ -74,6 +74,8 @@
     <footer>
         <p> &copy by surya | 2026</p>
     </footer>
+
+    <script src="pr.js"></script>
 
 </body>
 
