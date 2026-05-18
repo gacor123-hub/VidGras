@@ -22,34 +22,35 @@
     background: rgb(230, 224, 224);
     backdrop-filter:blur(10px);
     border-bottom: 1px solid white;
-    padding:10px;
     width: 100%;
     height: 50px;
     flex-direction: row-reverse;
     position: absolute;
     top: 0;
     left:0;
-    z-index:100;
 }
 
 
 ul li {
-    display: flex;
     list-style-type: none;
     color: white;
     font-weight: 600;
-    padding-right: 5px;
     background-color: brown;
-    padding: 5px;
-    font-weight: 800;
     border-radius: 5px;
+    padding:5px;
+    
+}
 
+.ul-logo {
+    display: flex;
+    gap: 15px;
+    padding:10px;
 }
 
 .ul-logo li:hover {
     box-shadow: 0px 0px 20px 0px red;
-    transform: translateY(-2px);
-    transition: .2s;
+    transform: translateY(-3px);
+    transition: .3s;
 }
 
 a {
@@ -57,14 +58,12 @@ a {
 }
 
 a img{
-    
+ height:100%;   
+ display:flex;
+ align-items:center;
+ margin:5px;
 }
 
-.ul-logo {
-    display: flex;
-    gap: 5px;
-    padding-right: 10px !important;
-}
 
 /* -----------
     navbar selesai
@@ -224,6 +223,16 @@ footer {
         bottom: 0;
     }
 
+    .ul-logo.active {
+        display: flex !important;
+    }
+
+    .ul-logo li {
+        display:flex;
+        width: 100%;
+        justify-content: center;
+    }
+    
     .ul-logo {
         display: none !important;
         position: absolute;
@@ -238,14 +247,6 @@ footer {
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
     }
 
-    .ul-logo.active {
-        display: flex !important;
-    }
-
-    .ul-logo li {
-        width: 100%;
-        justify-content: center;
-    }
 
 
     .hamburger {
